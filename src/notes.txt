@@ -1,0 +1,8 @@
+10/8/20-
+Next steps:
+  Setup a query that occurs on button click
+  and provides a pop-up response
+
+  Check if design is responsive
+
+  Create Orbis portfolio page in react
