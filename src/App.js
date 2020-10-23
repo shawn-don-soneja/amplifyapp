@@ -8,6 +8,9 @@ import Button from 'react-bootstrap/Button';
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Plot from 'react-plotly.js';
+import HexPlot from './Graphs';
+
 class App extends React.Component{
   state = {
     profiles: [],
@@ -30,6 +33,8 @@ class App extends React.Component{
           Show Custom Styled Alert
         </Button >
         <MyTable testWord="test word - props" profiles={this.state.profiles}/>
+
+        <HexPlot />
       </div>
     );
   }//end Render() --
